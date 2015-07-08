@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D3AC291B4B5C1100AE0355 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3AC281B4B5C1100AE0355 /* main.m */; };
+		63D3AC2C1B4B5C1100AE0355 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3AC2B1B4B5C1100AE0355 /* AppDelegate.m */; };
+		63D3AC321B4B5C1100AE0355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D3AC301B4B5C1100AE0355 /* Main.storyboard */; };
+		63D3AC341B4B5C1100AE0355 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D3AC331B4B5C1100AE0355 /* Images.xcassets */; };
+		63D3AC371B4B5C1100AE0355 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D3AC351B4B5C1100AE0355 /* LaunchScreen.xib */; };
+		63D3AC431B4B5C1100AE0355 /* tabelViewCellAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3AC421B4B5C1100AE0355 /* tabelViewCellAnimationTests.m */; };
+		63D3AC4E1B4B613F00AE0355 /* DMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3AC4D1B4B613F00AE0355 /* DMTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D3AC3D1B4B5C1100AE0355 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D3AC1B1B4B5C1100AE0355 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D3AC221B4B5C1100AE0355;
+			remoteInfo = tabelViewCellAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D3AC231B4B5C1100AE0355 /* tabelViewCellAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabelViewCellAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D3AC271B4B5C1100AE0355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D3AC281B4B5C1100AE0355 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D3AC2A1B4B5C1100AE0355 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D3AC2B1B4B5C1100AE0355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D3AC311B4B5C1100AE0355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D3AC331B4B5C1100AE0355 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63D3AC361B4B5C1100AE0355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		63D3AC3C1B4B5C1100AE0355 /* tabelViewCellAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabelViewCellAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D3AC411B4B5C1100AE0355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D3AC421B4B5C1100AE0355 /* tabelViewCellAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabelViewCellAnimationTests.m; sourceTree = "<group>"; };
+		63D3AC4C1B4B613F00AE0355 /* DMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTableViewController.h; sourceTree = "<group>"; };
+		63D3AC4D1B4B613F00AE0355 /* DMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D3AC201B4B5C1100AE0355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3AC391B4B5C1100AE0355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D3AC1A1B4B5C1100AE0355 = {
+			isa = PBXGroup;
+			children = (
+				63D3AC251B4B5C1100AE0355 /* tabelViewCellAnimation */,
+				63D3AC3F1B4B5C1100AE0355 /* tabelViewCellAnimationTests */,
+				63D3AC241B4B5C1100AE0355 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D3AC241B4B5C1100AE0355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D3AC231B4B5C1100AE0355 /* tabelViewCellAnimation.app */,
+				63D3AC3C1B4B5C1100AE0355 /* tabelViewCellAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D3AC251B4B5C1100AE0355 /* tabelViewCellAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				63D3AC2A1B4B5C1100AE0355 /* AppDelegate.h */,
+				63D3AC2B1B4B5C1100AE0355 /* AppDelegate.m */,
+				63D3AC4C1B4B613F00AE0355 /* DMTableViewController.h */,
+				63D3AC4D1B4B613F00AE0355 /* DMTableViewController.m */,
+				63D3AC301B4B5C1100AE0355 /* Main.storyboard */,
+				63D3AC331B4B5C1100AE0355 /* Images.xcassets */,
+				63D3AC351B4B5C1100AE0355 /* LaunchScreen.xib */,
+				63D3AC261B4B5C1100AE0355 /* Supporting Files */,
+			);
+			path = tabelViewCellAnimation;
+			sourceTree = "<group>";
+		};
+		63D3AC261B4B5C1100AE0355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D3AC271B4B5C1100AE0355 /* Info.plist */,
+				63D3AC281B4B5C1100AE0355 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D3AC3F1B4B5C1100AE0355 /* tabelViewCellAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D3AC421B4B5C1100AE0355 /* tabelViewCellAnimationTests.m */,
+				63D3AC401B4B5C1100AE0355 /* Supporting Files */,
+			);
+			path = tabelViewCellAnimationTests;
+			sourceTree = "<group>";
+		};
+		63D3AC401B4B5C1100AE0355 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D3AC411B4B5C1100AE0355 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D3AC221B4B5C1100AE0355 /* tabelViewCellAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3AC461B4B5C1100AE0355 /* Build configuration list for PBXNativeTarget "tabelViewCellAnimation" */;
+			buildPhases = (
+				63D3AC1F1B4B5C1100AE0355 /* Sources */,
+				63D3AC201B4B5C1100AE0355 /* Frameworks */,
+				63D3AC211B4B5C1100AE0355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tabelViewCellAnimation;
+			productName = tabelViewCellAnimation;
+			productReference = 63D3AC231B4B5C1100AE0355 /* tabelViewCellAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D3AC3B1B4B5C1100AE0355 /* tabelViewCellAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3AC491B4B5C1100AE0355 /* Build configuration list for PBXNativeTarget "tabelViewCellAnimationTests" */;
+			buildPhases = (
+				63D3AC381B4B5C1100AE0355 /* Sources */,
+				63D3AC391B4B5C1100AE0355 /* Frameworks */,
+				63D3AC3A1B4B5C1100AE0355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D3AC3E1B4B5C1100AE0355 /* PBXTargetDependency */,
+			);
+			name = tabelViewCellAnimationTests;
+			productName = tabelViewCellAnimationTests;
+			productReference = 63D3AC3C1B4B5C1100AE0355 /* tabelViewCellAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D3AC1B1B4B5C1100AE0355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "杜蒙";
+				TargetAttributes = {
+					63D3AC221B4B5C1100AE0355 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					63D3AC3B1B4B5C1100AE0355 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 63D3AC221B4B5C1100AE0355;
+					};
+				};
+			};
+			buildConfigurationList = 63D3AC1E1B4B5C1100AE0355 /* Build configuration list for PBXProject "tabelViewCellAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D3AC1A1B4B5C1100AE0355;
+			productRefGroup = 63D3AC241B4B5C1100AE0355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D3AC221B4B5C1100AE0355 /* tabelViewCellAnimation */,
+				63D3AC3B1B4B5C1100AE0355 /* tabelViewCellAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D3AC211B4B5C1100AE0355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3AC321B4B5C1100AE0355 /* Main.storyboard in Resources */,
+				63D3AC371B4B5C1100AE0355 /* LaunchScreen.xib in Resources */,
+				63D3AC341B4B5C1100AE0355 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3AC3A1B4B5C1100AE0355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D3AC1F1B4B5C1100AE0355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3AC2C1B4B5C1100AE0355 /* AppDelegate.m in Sources */,
+				63D3AC4E1B4B613F00AE0355 /* DMTableViewController.m in Sources */,
+				63D3AC291B4B5C1100AE0355 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3AC381B4B5C1100AE0355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3AC431B4B5C1100AE0355 /* tabelViewCellAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D3AC3E1B4B5C1100AE0355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D3AC221B4B5C1100AE0355 /* tabelViewCellAnimation */;
+			targetProxy = 63D3AC3D1B4B5C1100AE0355 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D3AC301B4B5C1100AE0355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3AC311B4B5C1100AE0355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D3AC351B4B5C1100AE0355 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3AC361B4B5C1100AE0355 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D3AC441B4B5C1100AE0355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D3AC451B4B5C1100AE0355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D3AC471B4B5C1100AE0355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tabelViewCellAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63D3AC481B4B5C1100AE0355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tabelViewCellAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63D3AC4A1B4B5C1100AE0355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tabelViewCellAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabelViewCellAnimation.app/tabelViewCellAnimation";
+			};
+			name = Debug;
+		};
+		63D3AC4B1B4B5C1100AE0355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tabelViewCellAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabelViewCellAnimation.app/tabelViewCellAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D3AC1E1B4B5C1100AE0355 /* Build configuration list for PBXProject "tabelViewCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3AC441B4B5C1100AE0355 /* Debug */,
+				63D3AC451B4B5C1100AE0355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3AC461B4B5C1100AE0355 /* Build configuration list for PBXNativeTarget "tabelViewCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3AC471B4B5C1100AE0355 /* Debug */,
+				63D3AC481B4B5C1100AE0355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3AC491B4B5C1100AE0355 /* Build configuration list for PBXNativeTarget "tabelViewCellAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3AC4A1B4B5C1100AE0355 /* Debug */,
+				63D3AC4B1B4B5C1100AE0355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D3AC1B1B4B5C1100AE0355 /* Project object */;
+}
